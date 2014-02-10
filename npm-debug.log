@@ -1,0 +1,87 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.24/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/tobaur/Projects/gitviews/generator-fumunda',
+5 verbose install   [ 'yeoman-generator',
+5 verbose install     'chalk',
+5 verbose install     'angular-generator-fullstack',
+5 verbose install     'mocha' ] ]
+6 info preinstall generator-fumunda@0.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'angular-generator-fullstack@*', null ]
+9 verbose cache add name=undefined spec="angular-generator-fullstack@*" args=["angular-generator-fullstack@*",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'angular-generator-fullstack@*',
+10 verbose parsed url   path: 'angular-generator-fullstack@*',
+10 verbose parsed url   href: 'angular-generator-fullstack@*' }
+11 verbose cache add name="angular-generator-fullstack" spec="*" args=["angular-generator-fullstack","*"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '*',
+12 verbose parsed url   path: '*',
+12 verbose parsed url   href: '*' }
+13 verbose addNamed [ 'angular-generator-fullstack', '*' ]
+14 verbose addNamed [ null, '*' ]
+15 verbose already installed skipping chalk@~0.4.0 /Users/tobaur/Projects/gitviews/generator-fumunda
+16 verbose already installed skipping mocha@* /Users/tobaur/Projects/gitviews/generator-fumunda
+17 silly lockFile 6f4a7770-angular-generator-fullstack angular-generator-fullstack@*
+18 verbose lock angular-generator-fullstack@* /Users/tobaur/.npm/6f4a7770-angular-generator-fullstack.lock
+19 verbose already installed skipping yeoman-generator@~0.16.0 /Users/tobaur/Projects/gitviews/generator-fumunda
+20 silly addNameRange { name: 'angular-generator-fullstack',
+20 silly addNameRange   range: '*',
+20 silly addNameRange   hasData: false }
+21 verbose url raw angular-generator-fullstack
+22 verbose url resolving [ 'https://registry.npmjs.org/',
+22 verbose url resolving   './angular-generator-fullstack' ]
+23 verbose url resolved https://registry.npmjs.org/angular-generator-fullstack
+24 info trying registry request attempt 1 at 11:11:38
+25 http GET https://registry.npmjs.org/angular-generator-fullstack
+26 http 404 https://registry.npmjs.org/angular-generator-fullstack
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Mon, 10 Feb 2014 19:11:43 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-d64-DAL',
+27 silly registry.get     'x-cache': 'MISS, MISS',
+27 silly registry.get     'x-cache-hits': '0, 0',
+27 silly registry.get     'x-timer': 'S1392059503.204840422,VS0,VS19,VE44,VE59',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile 6f4a7770-angular-generator-fullstack angular-generator-fullstack@*
+29 silly lockFile 6f4a7770-angular-generator-fullstack angular-generator-fullstack@*
+30 error 404 'angular-generator-fullstack' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Darwin 12.5.0
+32 error command "/usr/local/Cellar/node/0.10.24/bin/node" "/usr/local/bin/npm" "install"
+33 error cwd /Users/tobaur/Projects/gitviews/generator-fumunda
+34 error node -v v0.10.24
+35 error npm -v 1.3.21
+36 error code E404
+37 verbose exit [ 1, true ]

@@ -1,0 +1,36 @@
+{
+  "name": "generator-fumunda",
+  "version": "0.0.0",
+  "description": "Generate a full angular stack from a WADL url",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "toadkicker/generator-fumunda",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "https://github.com/toadkicker"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0",
+    "angular-generator-fullstack": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
