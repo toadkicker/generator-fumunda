@@ -1,27 +1,24 @@
 # generator-fumunda [![Build Status](https://secure.travis-ci.org/toadkicker/generator-fumunda.png?branch=master)](https://travis-ci.org/toadkicker/generator-fumunda)
 
-> [Yeoman](http://yeoman.io) generator
+Welcome to the Fumunda generator. Generate your Angular JS app fumunda a WADL.
 
+This is currently under development. Don't expect anything to work. Pull requests are welcome.
 
 ## Getting Started
 
-### What is Yeoman?
+It is great for rapid application development. It is not great for user experience or venture capitalists.
 
-Trick question. It's not a thing. It's this guy:
+If you want to:
 
-![](http://i.imgur.com/JHaAlBJ.png)
+* Use MongoDB, AngularJS, and Twitter Bootstrap as part of your UI stack
+* focus on building an API and not worry about the finer details of UI development
+* Want to a rich web client to CRUD your data
+* Want to quickly generate an admin tool from a WADL
 
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
+...then build your app with fumunda.
 
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
+### Fumunda
 
-```
-$ npm install -g yo
-```
-
-### Yeoman Generators
-
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
 
 To install generator-fumunda from npm, run:
 
@@ -32,16 +29,5 @@ $ npm install -g generator-fumunda
 Finally, initiate the generator:
 
 ```
-$ yo fumunda
+$ yo fumunda --app myAppName --url http://localhost:8080/application.wadl
 ```
-
-### Getting To Know Yeoman
-
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
-
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
-
-
-## License
-
-MIT
