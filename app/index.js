@@ -314,12 +314,12 @@ var generateAPIFromWadl = {
             }
             
             //write the result to files
-            writeToFile('/run/media/lucas/Stuff/Project/Project14/WebApp/public_html/js/api/' + name + '.js',
+            writeToFile('/' + name + '.js',
                     'var dal = ' +
                     util.inspect(wadlResources, false, null)
                     + ';'
                     );
-            writeToFile('/run/media/lucas/Stuff/Project/Project14/WebApp/public_html/js/api/' + name + '.json',
+            writeToFile('/' + name + '.json',
                     JSON.stringify(wadlResources, null, 4)
                     );
         });
